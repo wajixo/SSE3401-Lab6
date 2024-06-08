@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           color: Color(0xFF34395a),
           toolbarTextStyle: TextTheme(
-            headline6: TextStyle(color: Colors.white, fontSize: 20),
-          ).bodyText2,
+            titleLarge: TextStyle(color: Colors.white, fontSize: 20),
+          ).bodyMedium,
           titleTextStyle: TextTheme(
-            headline6: TextStyle(color: Colors.white, fontSize: 20),
-          ).headline6,
+            titleLarge: TextStyle(color: Colors.white, fontSize: 20),
+          ).titleLarge,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           backgroundColor: Color(0xFF34395a),
@@ -31,9 +31,9 @@ class MyApp extends StatelessWidget {
           unselectedItemColor: Color(0xFF657ab5),
         ),
         textTheme: TextTheme(
-          bodyText1: TextStyle(color: Colors.white),
-          bodyText2: TextStyle(color: Colors.white70),
-          headline6: TextStyle(color: Colors.white),
+          bodyLarge: TextStyle(color: Colors.white),
+          bodyMedium: TextStyle(color: Colors.white70),
+          titleLarge: TextStyle(color: Colors.white),
         ),
         cardColor: Color(0xFF202b34),
         buttonTheme: ButtonThemeData(
